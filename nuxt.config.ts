@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/eslint',
     '@nuxt/image',
-    '@nuxtjs/supabase'
+    '@nuxtjs/supabase',
+    '@nuxthub/core',
   ],
   supabase:{
       redirectOptions: {
@@ -20,6 +21,9 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+  ui: {
+    colorMode: false
+  },
 
   future: {
     compatibilityVersion: 4
