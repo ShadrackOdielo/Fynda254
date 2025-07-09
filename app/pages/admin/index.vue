@@ -1,13 +1,5 @@
-<template>
-    <div>
-        <p>hi</p>
-    </div>
-</template>
-
-<script lang="ts">
-
+<script setup lang="ts">
 </script>
-
-<style scoped>
-
-</style>
+<template>
+    <AdminPanel/>
+</template>

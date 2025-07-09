@@ -3,6 +3,12 @@
 <template>
   <div>
   <HeroSection />
-  <SearchCard />
+  <SearchCard2 />
+  <CategoriesSection />
+  <FeaturedProductsSection />
+  <SellSection2/>
+  <OtherSection/>
+  <CustomerSection/>
+  <PreFooterSection />
   </div>
 </template>

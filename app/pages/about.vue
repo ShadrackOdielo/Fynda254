@@ -1,6 +1,4 @@
 <template>
-    <div>
-        hi
-    </div>
+    <AboutCard />
 </template>
 

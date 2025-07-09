@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-elevated  z-50 border-b shadow-sm flex flex-row justify-between top-0 sticky">
+    <div class="w-full bg-elevated  z-50 border-b shadow-sm flex flex-row justify-between top-0 sticky px-4">
         <NuxtLink to="/" class="w-full">
             <NuxtImg 
                 src="/fynda254-logo.png"
@@ -7,17 +7,15 @@
             />
         </NuxtLink>
         <UNavigationMenu :items="items" variant='link' color="neutral" class="w-full justify-center  not-md:hidden" />
-        <div class="flex  flex-row items-center align-center gap-2 justify-end not-md:hidden">
+        <div class="flex w-full flex-row items-center align-center gap-2 justify-end not-md:hidden">
         <UButton 
             icon="i-simple-icons-whatsapp"
             label="WhatsApp"
             size="md"
+            variant="outline"
+            color="neutral"
              />
-        <UButton
-            label="Sell Items"
-            icon="i-lucide-dollar-sign"
-            size="md"
-            />
+        <SellItemsModal />
             <UButton
                 label="Admin"
                 size="md"

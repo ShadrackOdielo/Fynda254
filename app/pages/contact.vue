@@ -1,5 +1,3 @@
 <template>
-    <UContainer>
-        
-    </UContainer>
+    <ContactCard/>
 </template>

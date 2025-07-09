@@ -2,6 +2,6 @@
 </script>
 <template>
     <UContainer>
-        <h1>Products</h1>
+        <ProductList/>
     </UContainer>
 </template>
